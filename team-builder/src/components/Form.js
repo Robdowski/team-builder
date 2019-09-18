@@ -30,13 +30,13 @@ export default function Form(props) {
           onChange={handleChanges}
           value={member.job}
         />
-         <label htmlFor="age">Age:</label>
+         <label htmlFor="email">Email:</label>
         <input
-          id="age"
+          id="email"
           type="text"
-          name="age"
+          name="email"
           onChange={handleChanges}
-          value={member.age}
+          value={member.email}
         />
         <button type="submit">Add Member</button>
       </form>

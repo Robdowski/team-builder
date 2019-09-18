@@ -9,8 +9,26 @@ function App() {
       id: 1,
       name: "Robert Carter",
       job: "Software Engineer",
-      age: 28
-    }
+      email: "email1@gmail.com"
+    },
+    {
+      id: 2,
+      name: "Kevin Allen",
+      job: "Software Engineer",
+      email: "email2@gmail.com"
+    },
+    {
+      id: 3,
+      name: "Travis Laudahl",
+      job: "Software Engineer",
+      email: "email1@hotmail.com"
+    },
+    {
+      id: 4,
+      name: "Christian Ford",
+      job: "Software Engineer",
+      email: "cfjordaloseo@gmailforlosers.com"
+    },
   ]);
   const addNewMember = member => {
     const newMember = {
