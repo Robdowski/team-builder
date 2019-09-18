@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
 
-export default function TeamMembers() {
-    return (
-        <div>
-            
+export default function TeamMembers(props) {
+  return (
+    <div className="member-list">
+      {props.members.map(member => (
+        <div className="member" key={member.id}>
+          <h2>
+            {member.name}, {member.age}
+          </h2>
+          <p>{member.job}</p>
         </div>
-    )
+      ))}
+    </div>
+  );
 }
